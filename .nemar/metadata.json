@@ -1,35 +1,147 @@
 {
   "version": "2.0",
-  "dataset_id": "on004473",
-  "source": "openneuro",
-  "source_id": "ds004473",
+  "pipeline_stage": "enriched",
   "title": "sEEG Forced Two-Choice Task",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Alexander P. Rockhill": {},
     "Alessandra Mantovani": {},
     "Brittany Stedelin": {},
     "Admed M. Raslan": {},
-    "Nicole C. Swann": {}
+    "Nicole C. Swann": {
+      "orcid": "0000-0003-2463-5134"
+    }
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004473.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004473",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004473",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1088/1741-2552/acae0a",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0105-7",
+      "identifier_type": "DOI",
+      "relation_type": "References"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.9.2",
-  "recording_modality": [
+  "modalities": [
     "anat",
     "beh",
     "ieeg"
   ],
-  "datatypes": [
-    "anat",
-    "beh",
-    "ieeg"
-  ]
+  "resource_type_specific": "Structural MRI Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".H",
+    ".K",
+    ".T1",
+    ".T2",
+    ".annot",
+    ".area",
+    ".avg_curv",
+    ".bak",
+    ".crv",
+    ".ctab",
+    ".curv",
+    ".dat",
+    ".defect_borders",
+    ".defect_chull",
+    ".defect_labels",
+    ".edf",
+    ".fif",
+    ".gz",
+    ".inflated",
+    ".jacobian_white",
+    ".json",
+    ".label",
+    ".log",
+    ".lta",
+    ".m3z",
+    ".md",
+    ".mgh",
+    ".mgz",
+    ".mid",
+    ".mincost",
+    ".nii",
+    ".nofix",
+    ".npz",
+    ".orig",
+    ".param",
+    ".pial",
+    ".pointset",
+    ".preaparc",
+    ".premesh",
+    ".reg",
+    ".smoothwm",
+    ".sphere",
+    ".stats",
+    ".sulc",
+    ".sum",
+    ".thickness",
+    ".tsv",
+    ".txt",
+    ".volume",
+    ".white",
+    ".xfm"
+  ],
+  "description": "This dataset comprises stereoelectroencephalography (sEEG) recordings from patients performing a forced two-choice response task, collected in the epilepsy monitoring unit at Oregon Health & Science University. The data extends characterization of movement-related neural oscillations using intracranial electrode recordings and provides a resource for investigating decision-making and motor control mechanisms at the mesoscale level of brain organization.",
+  "methods_description": "Stereoelectroencephalography data were collected from patients in the epilepsy monitoring unit during performance of a forced two-choice response task. Data organization follows the Brain Imaging Data Structure (BIDS) specification for intracranial electrophysiology.",
+  "keywords": [
+    {
+      "term": "stereoelectroencephalography"
+    },
+    {
+      "term": "sEEG"
+    },
+    {
+      "term": "intracranial electrophysiology"
+    },
+    {
+      "term": "motor control"
+    },
+    {
+      "term": "Decision Making",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D003657"
+    },
+    {
+      "term": "movement-related oscillations"
+    },
+    {
+      "term": "clinical electrophysiology"
+    },
+    {
+      "term": "epilepsy"
+    },
+    {
+      "term": "seizure monitoring"
+    },
+    {
+      "term": "forced-choice task"
+    }
+  ],
+  "source_hash": "61412f330db5b9c3474f05a48145fae64e374e74f9ada17ef25f04074c8108f5"
 }
