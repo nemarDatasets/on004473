@@ -1,0 +1,35 @@
+{
+  "version": "2.0",
+  "dataset_id": "on004473",
+  "source": "openneuro",
+  "source_id": "ds004473",
+  "title": "sEEG Forced Two-Choice Task",
+  "authors": {
+    "Alexander P. Rockhill": {},
+    "Alessandra Mantovani": {},
+    "Brittany Stedelin": {},
+    "Admed M. Raslan": {},
+    "Nicole C. Swann": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds004473.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.9.2",
+  "recording_modality": [
+    "anat",
+    "beh",
+    "ieeg"
+  ],
+  "datatypes": [
+    "anat",
+    "beh",
+    "ieeg"
+  ]
+}
