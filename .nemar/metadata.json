@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "sEEG Forced Two-Choice Task",
-  "description": "This dataset comprises stereoelectroencephalography (sEEG) recordings from patients performing a forced two-choice response task, collected in the epilepsy monitoring unit at Oregon Health & Science University. The data extends characterization of movement-related neural oscillations by providing intracranial recordings from deep brain structures. This resource enables investigation of canonical motor-related activity patterns across distributed neural networks.",
-  "methods_description": "Stereoelectroencephalography data were collected from patients performing a forced two-choice response task in the epilepsy monitoring unit at Oregon Health & Science University, in collaboration with the University of Oregon.",
+  "description": "This dataset comprises stereoelectroencephalography (sEEG) recordings from patients performing a forced two-choice response task, collected in the epilepsy monitoring unit at Oregon Health & Science University. The data extends characterization of movement-related neural oscillations using intracranial electrode recordings, providing insights into canonical motor-related activity patterns across distributed brain regions.",
+  "methods_description": "Stereoelectroencephalography data were collected from patients in the epilepsy monitoring unit during performance of a forced two-choice response task. Data organization follows the iEEG-BIDS specification for intracranial electrophysiology.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -26,25 +26,31 @@
       "term": "intracranial electrophysiology"
     },
     {
-      "term": "motor imagery"
+      "term": "motor planning"
     },
     {
       "term": "movement-related oscillations"
     },
     {
-      "term": "decision-making"
+      "term": "response selection"
     },
     {
-      "term": "forced choice task"
+      "term": "neural oscillations"
+    },
+    {
+      "term": "epilepsy monitoring unit"
     },
     {
       "term": "clinical electrophysiology"
     },
     {
-      "term": "epilepsy"
+      "term": "motor cortex"
     },
     {
-      "term": "epilepsy monitoring unit"
+      "term": "forced choice task"
+    },
+    {
+      "term": "response task"
     }
   ],
   "related_identifiers": [
