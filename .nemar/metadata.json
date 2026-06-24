@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "sEEG Forced Two-Choice Task",
+  "description": "This dataset comprises stereoelectroencephalography (sEEG) recordings from patients performing a forced two-choice response task, collected in the epilepsy monitoring unit at Oregon Health & Science University. The data extends characterization of movement-related neural oscillations by providing intracranial recordings from deep brain structures. This resource enables investigation of canonical motor-related activity patterns across distributed neural networks.",
+  "methods_description": "Stereoelectroencephalography data were collected from patients performing a forced two-choice response task in the epilepsy monitoring unit at Oregon Health & Science University, in collaboration with the University of Oregon.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -13,12 +15,39 @@
       "orcid": "0000-0003-2463-5134"
     }
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds004473.v1.0.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "stereoelectroencephalography"
     },
+    {
+      "term": "sEEG"
+    },
+    {
+      "term": "intracranial electrophysiology"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "movement-related oscillations"
+    },
+    {
+      "term": "decision-making"
+    },
+    {
+      "term": "forced choice task"
+    },
+    {
+      "term": "clinical electrophysiology"
+    },
+    {
+      "term": "epilepsy"
+    },
+    {
+      "term": "epilepsy monitoring unit"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004473",
       "identifier_type": "URL",
@@ -43,16 +72,21 @@
       "identifier": "10.1038/s41597-019-0105-7",
       "identifier_type": "DOI",
       "relation_type": "References"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004473.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
+  "resource_type_specific": "Structural MRI Dataset",
   "modalities": [
     "anat",
     "beh",
     "ieeg"
   ],
-  "resource_type_specific": "Structural MRI Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "15.3 GB (2303 files)"
   ],
   "formats": [
     ".H",
@@ -105,43 +139,8 @@
     ".txt",
     ".volume",
     ".white",
-    ".xfm"
+    ".xfm",
+    ".yml"
   ],
-  "description": "This dataset comprises stereoelectroencephalography (sEEG) recordings from patients performing a forced two-choice response task, collected in the epilepsy monitoring unit at Oregon Health & Science University. The data extends characterization of movement-related neural oscillations using intracranial electrode recordings and provides a resource for investigating decision-making and motor control mechanisms at the mesoscale level of brain organization.",
-  "methods_description": "Stereoelectroencephalography data were collected from patients in the epilepsy monitoring unit during performance of a forced two-choice response task. Data organization follows the Brain Imaging Data Structure (BIDS) specification for intracranial electrophysiology.",
-  "keywords": [
-    {
-      "term": "stereoelectroencephalography"
-    },
-    {
-      "term": "sEEG"
-    },
-    {
-      "term": "intracranial electrophysiology"
-    },
-    {
-      "term": "motor control"
-    },
-    {
-      "term": "Decision Making",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D003657"
-    },
-    {
-      "term": "movement-related oscillations"
-    },
-    {
-      "term": "clinical electrophysiology"
-    },
-    {
-      "term": "epilepsy"
-    },
-    {
-      "term": "seizure monitoring"
-    },
-    {
-      "term": "forced-choice task"
-    }
-  ],
-  "source_hash": "61412f330db5b9c3474f05a48145fae64e374e74f9ada17ef25f04074c8108f5"
+  "source_hash": "76c1f4c6f2e0e31894d1a1043122fe4fb4ecf1f07ac4f2b459362af832f36a78"
 }
