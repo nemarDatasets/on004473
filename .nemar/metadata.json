@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "sEEG Forced Two-Choice Task",
-  "description": "This dataset comprises stereoelectroencephalography (sEEG) recordings from patients performing a forced two-choice response task, collected in the epilepsy monitoring unit at Oregon Health & Science University. The data extends characterization of movement-related neural oscillations using intracranial electrode recordings, providing insights into canonical motor-related activity patterns across distributed brain regions.",
-  "methods_description": "Stereoelectroencephalography data were collected from patients in the epilepsy monitoring unit during performance of a forced two-choice response task. Data organization follows the iEEG-BIDS specification for intracranial electrophysiology.",
+  "description": "This dataset contains stereoelectroencephalography (sEEG) recordings from patients performing a forced two-choice response task in the epilepsy monitoring unit at Oregon Health & Science University. The data were analyzed in collaboration with the University of Oregon and were used to characterize movement-related oscillations in intracranial recordings. It is organized in BIDS format.",
+  "methods_description": "Stereoelectroencephalography was recorded from patients in an epilepsy monitoring unit while they performed a forced two-choice response task. Data were organized according to the iEEG-BIDS specification using MNE-BIDS.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -20,47 +20,29 @@
       "term": "stereoelectroencephalography"
     },
     {
+      "term": "intracranial EEG"
+    },
+    {
+      "term": "iEEG"
+    },
+    {
       "term": "sEEG"
-    },
-    {
-      "term": "intracranial electrophysiology"
-    },
-    {
-      "term": "motor planning"
     },
     {
       "term": "movement-related oscillations"
     },
     {
-      "term": "response selection"
+      "term": "two-choice response task"
     },
     {
-      "term": "neural oscillations"
-    },
-    {
-      "term": "epilepsy monitoring unit"
-    },
-    {
-      "term": "clinical electrophysiology"
-    },
-    {
-      "term": "motor cortex"
-    },
-    {
-      "term": "forced choice task"
-    },
-    {
-      "term": "response task"
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004473",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004473",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -83,6 +65,11 @@
       "identifier": "10.18112/openneuro.ds004473.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004473",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_specific": "Structural MRI Dataset",
@@ -92,7 +79,7 @@
     "ieeg"
   ],
   "sizes": [
-    "15.3 GB (2303 files)"
+    "14.23 GB (2303 files)"
   ],
   "formats": [
     ".H",
