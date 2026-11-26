@@ -1,6 +1,4 @@
 {
-  "Name": "sEEG Forced Two-Choice Task",
-  "BIDSVersion": "1.9.2",
   "Authors": [
     "Alexander P. Rockhill",
     "Alessandra Mantovani",
@@ -8,12 +6,16 @@
     "Admed M. Raslan",
     "Nicole C. Swann"
   ],
+  "BIDSVersion": "1.9.2",
   "DatasetDOI": "10.82901/nemar.on004473",
   "License": "CC0",
+  "Name": "sEEG Forced Two-Choice Task",
   "SourceDatasets": [
     {
-      "DOI": "doi:10.18112/openneuro.ds004473.v1.0.1"
+      "DOI": "doi:10.18112/openneuro.ds004473.v1.0.2",
+      "URL": "https://openneuro.org/datasets/ds004473/versions/1.0.2",
+      "Version": "1.0.2"
     }
   ],
-  "Version": "1.0.0"
+  "Version": "2.0.0"
 }

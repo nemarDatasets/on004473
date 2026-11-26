@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "sEEG Forced Two-Choice Task",
-  "description": "This dataset contains stereoelectroencephalography (sEEG) recordings from patients performing a forced two-choice response task in the epilepsy monitoring unit at Oregon Health & Science University. The data were analyzed in collaboration with the University of Oregon and were used to characterize movement-related oscillations in intracranial recordings. It is organized in BIDS format.",
+  "description": "Stereoelectroencephalography (sEEG) recordings from patients performing a forced two-choice response task in the epilepsy monitoring unit at Oregon Health & Science University. The data were analyzed in collaboration with the University of Oregon and used to characterize movement-related oscillations across brain regions sampled by intracranial electrodes. The accompanying data paper (Rockhill, Mantovani, Stedelin, Nerison, Raslan, & Swann; Journal of Neural Engineering) describes the dataset and analyses; note that C. S. Nerison appears in that paper's author list but not in the BIDS dataset_description.json.",
   "methods_description": "Stereoelectroencephalography was recorded from patients in an epilepsy monitoring unit while they performed a forced two-choice response task. Data were organized according to the iEEG-BIDS specification using MNE-BIDS.",
   "license": "CC0",
   "dataset_type": "raw",
@@ -20,19 +20,16 @@
       "term": "stereoelectroencephalography"
     },
     {
-      "term": "intracranial EEG"
-    },
-    {
-      "term": "iEEG"
-    },
-    {
       "term": "sEEG"
     },
     {
-      "term": "movement-related oscillations"
+      "term": "intracranial EEG"
     },
     {
-      "term": "two-choice response task"
+      "term": "forced two-choice task"
+    },
+    {
+      "term": "movement-related oscillations"
     },
     {
       "term": "Epilepsy",
@@ -62,14 +59,14 @@
       "relation_type": "References"
     },
     {
-      "identifier": "10.18112/openneuro.ds004473.v1.0.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsDerivedFrom"
-    },
-    {
       "identifier": "https://nemar.org/dataset/on004473",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004473.v1.0.2",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "resource_type_specific": "Structural MRI Dataset",
@@ -135,5 +132,5 @@
     ".xfm",
     ".yml"
   ],
-  "source_hash": "76c1f4c6f2e0e31894d1a1043122fe4fb4ecf1f07ac4f2b459362af832f36a78"
+  "source_hash": "d8deeb45ee4ca8ea6194775c6cffc2db9d147f1796dc9c6710079d3e42f65aee"
 }
